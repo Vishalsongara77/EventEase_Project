@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1754037677709",
+      "name": "Admin User",
+      "email": "admin@eventease.com",
+      "password": "$2b$10$lf0pSeEqrkrukNzaBYo4J.9hBroc3XACyKJ.JSeE9PfHFtrlgax6S",
+      "phone": "+1234567890",
+      "role": "admin",
+      "createdAt": "2025-08-01T08:41:17.709Z"
+    },
+    {
+      "id": "1754038677177",
+      "name": "Vishal Songara",
+      "email": "vishal26songara@gmail.com",
+      "password": "$2b$10$nmlCAA/46BIJ5wnY8WeZSuPpji0bSiAFZcvI2LO0u9RB280BgUGIa",
+      "phone": "9460772077",
+      "role": "user",
+      "createdAt": "2025-08-01T08:57:57.177Z"
+    },
+    {
+      "id": "1754040208667",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2b$10$BoNfaaxxj6OZ7iliKKJWKu7cEnqy22Cxs5JduXJ.Uz7xDFwrUNexW",
+      "phone": "1234567890",
+      "role": "user",
+      "createdAt": "2025-08-01T09:23:28.667Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "1754037677714",
+      "title": "Tech Conference 2024",
+      "description": "Join us for the biggest tech conference of the year!",
+      "category": "Technology",
+      "location": "Convention Center",
+      "locationType": "Indoor",
+      "date": "2024-12-15",
+      "time": "09:00",
+      "duration": 8,
+      "capacity": 200,
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=500",
+      "organizer": "admin@eventease.com",
+      "eventId": "EVT-DEC-2024-001",
+      "status": "Upcoming",
+      "bookedSeats": 1,
+      "availableSeats": 200,
+      "createdAt": "2025-08-01T08:41:17.714Z"
+    },
+    {
+      "id": "1754037677715",
+      "title": "Music Festival",
+      "description": "A day filled with amazing music and performances!",
+      "category": "Music",
+      "location": "Central Park",
+      "locationType": "Outdoor",
+      "date": "2024-11-20",
+      "time": "14:00",
+      "duration": 6,
+      "capacity": 500,
+      "price": 75,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500",
+      "organizer": "admin@eventease.com",
+      "eventId": "EVT-NOV-2024-002",
+      "status": "Upcoming",
+      "bookedSeats": 2,
+      "availableSeats": 500,
+      "createdAt": "2025-08-01T08:41:17.714Z"
+    },
+    {
+      "id": "1754045959869",
+      "title": "Test Event",
+      "description": "A test event for verification",
+      "category": "Tech",
+      "location": "Test Venue",
+      "locationType": "In-Person",
+      "date": "2024-12-20",
+      "time": "10:00",
+      "duration": 4,
+      "capacity": 100,
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500",
+      "organizer": "admin@eventease.com",
+      "eventId": "EVT-2025-870",
+      "status": "Upcoming",
+      "bookedSeats": 0,
+      "availableSeats": 100,
+      "createdAt": "2025-08-01T10:59:19.870Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1754039093496",
+      "user": "1754037677709",
+      "event": "1754037677715",
+      "numberOfSeats": 2,
+      "totalAmount": 150,
+      "status": "Cancelled",
+      "bookingDate": "2025-08-01T09:04:53.496Z"
+    },
+    {
+      "id": "1754039287694",
+      "user": "1754038677177",
+      "event": "1754037677715",
+      "numberOfSeats": 2,
+      "totalAmount": 150,
+      "status": "Confirmed",
+      "bookingDate": "2025-08-01T09:08:07.694Z"
+    },
+    {
+      "id": "1754041391372",
+      "user": "1754038677177",
+      "event": "1754037677714",
+      "numberOfSeats": 1,
+      "totalAmount": 150,
+      "status": "Confirmed",
+      "bookingDate": "2025-08-01T09:43:11.372Z"
+    },
+    {
+      "id": "1754045429888",
+      "user": "1754037677709",
+      "event": "1754037677714",
+      "numberOfSeats": 1,
+      "totalAmount": 150,
+      "status": "Cancelled",
+      "bookingDate": "2025-08-01T10:50:29.888Z"
+    }
+  ]
+}
